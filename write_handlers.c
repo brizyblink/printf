@@ -111,4 +111,3 @@ if (extra_c)
 buffer[--ind] = extra_c;
 return (write(1, &buffer[1], i - 1) + write(1, &buffer[ind], length));
 }
-
